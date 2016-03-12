@@ -1,0 +1,18 @@
+JAMX_SPACE=test-custmoer
+JAMX_PRIVATE_KEY=~/.ssh/id_rsa_test-custmoer
+PACKAGE_NAME="openssl"
+PACKAGE_VERSION="1.0.1s"
+PACKAGE_BRANCH="${PACKAGE_NAME}-${PACKAGE_VERSION}"
+# comma separated in the form of $DIST:$VERSION
+SUPPORTED_ENVS="centos:6"
+# URL to download the package source from
+SOURCE_URL="http://openssl.org/source/openssl-1.0.1s.tar.gz"
+# Project URL
+PROJECT_URL="http://openssl.org"
+PACKAGE_DESCRIPTION="/home/jamx/build/$JAMX_SPACE/jamx-packages-meta/${PACKAGE_NAME}/DESCRIPTION"
+MAINTAINER_NAME="Jess Portnoy"
+MAINTAINER_EMAIL="jess@jam-x.com"
+# optional for deb. If not supplied, use container's dist name
+#DIST_NAME="@@DIST_NAME@@"
+
+
